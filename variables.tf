@@ -22,3 +22,14 @@ variable "aws_region" {
   description = "The region to create resources."
   default     = "eu-west-2"
 }
+
+# GCP
+
+variable "gcp_project" {
+  description = "GCP project name"
+}
+
+variable "gcp_region" {
+  description = "GCP region, e.g. us-east1"
+  default     = "europe-west3"
+}
