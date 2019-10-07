@@ -33,3 +33,10 @@ variable "gcp_region" {
   description = "GCP region, e.g. us-east1"
   default     = "europe-west3"
 }
+
+# Azure
+
+variable "azure_location" {
+  description = "The azure location to deploy the DNS service"
+  default     = "West Europe"
+}
