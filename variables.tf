@@ -15,3 +15,10 @@ variable "created-by" {
 variable "hosted-zone" {
   description = "The name of the dns zone on Route 53 that will be used as the master zone "
 }
+
+# AWS
+
+variable "aws_region" {
+  description = "The region to create resources."
+  default     = "eu-west-2"
+}
