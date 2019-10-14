@@ -1,4 +1,3 @@
-
 # Deploying DNS Delegated Subdomains using Terraform Cloud
 
 ## Introduction
@@ -203,12 +202,12 @@ The repository has a number of files within it. We will look at each terraform f
      ├── aws.tf
      ├── azure.tf
      ├── gcp.tf
-     ├── general.tf
+     ├── main.tf
      ├── outputs.tf
      └── variables.tf
      0 directories, 8 files
 
-[**general.tf](https://github.com/lhaig/dns-multicloud/blob/master/general.tf)**
+[**main.tf](https://github.com/lhaig/dns-multicloud/blob/master/main.tf)**
 
 This file contains all the general items such as provider blocks and the backend configuration.
 
