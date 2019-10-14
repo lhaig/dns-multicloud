@@ -201,8 +201,8 @@ The repository has a number of files within it. We will look at each terraform f
      ├── README.md
      ├── aws.tf
      ├── azure.tf
-     ├── gcp.tf
      ├── main.tf
+     ├── gcp.tf
      ├── outputs.tf
      └── variables.tf
      0 directories, 8 files
