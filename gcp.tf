@@ -1,6 +1,7 @@
 # GCP SUBZONE
 
 resource "google_dns_managed_zone" "gcp_sub_zone" {
+  count = var.create_gcp_dns_zone ? 1 : 0
   name              = "${var.namespace}-zone"
   dns_name          = "${var.namespace}.gcp.${var.hosted-zone}."
   project           = var.gcp_project
