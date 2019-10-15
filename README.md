@@ -21,9 +21,14 @@ You can read more about Terraform Cloud here:
 
 ## Use this repository as a module
 
-If you want to use the repository as a module you can use the [no-remote-config](https://github.com/lhaig/dns-multicloud/tree/no-remote-config) branch and include it in the source block.
+If you want to use the repository as a module you can use the [v1.1](https://github.com/lhaig/dns-multicloud/tree/v1.1) release and include it in the source block.
+Example:
 
-## What is a Delegated Subdomain?
+    module "dns-multicloud" {
+      source              = "git::https://github.com/lhaig/dns-multicloud.git?ref=v1.1"
+    }
+
+## What is a Delegated Subdomain
 
 In basic terms, a delegated DNS subdomain is a child domain of a larger parent domain name. It is used to organise web addresses. For example, mydomain.com is the parent domain and aws.mydomain.com is a child / subdomain.
 
