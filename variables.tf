@@ -1,10 +1,12 @@
 # General
 variable "owner" {
   description = "Person Deploying this Stack e.g. john-doe"
+  default = "yulei@hashicorp.com"
 }
 
 variable "namespace" {
   description = "Name of the zone e.g. demo"
+  default = "demo"
 }
 
 variable "created-by" {
@@ -14,6 +16,7 @@ variable "created-by" {
 
 variable "hosted-zone" {
   description = "The name of the dns zone on Route 53 that will be used as the master zone "
+  default = "hashidemos.io"
 }
 
 # AWS
@@ -21,12 +24,12 @@ variable "hosted-zone" {
 variable "create_aws_dns_zone" {
   description = "Set to true if you want to deploy the AWS delegated zone."
   type        = bool
-  default     = "false"
+  default     = "true"
 }
 
 variable "aws_region" {
   description = "The region to create resources."
-  default     = "eu-west-2"
+  default     = "ap-southeast-2"
 }
 
 # Azure
