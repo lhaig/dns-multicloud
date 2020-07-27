@@ -6,7 +6,7 @@ variable "owner" {
 
 variable "namespace" {
   description = "Name of the zone e.g. demo"
-  default = "demo"
+  default = "yulei"
 }
 
 variable "created-by" {
