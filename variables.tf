@@ -37,12 +37,12 @@ variable "aws_region" {
 variable "create_azure_dns_zone" {
   description = "Set to true if you want to deploy the Azure delegated zone."
   type        = bool
-  default     = "false"
+  default     = "true"
 }
 
 variable "azure_location" {
   description = "The azure location to deploy the DNS service"
-  default     = "West Europe"
+  default     = "Australia Central 2"
 }
 
 # GCP
@@ -50,7 +50,7 @@ variable "azure_location" {
 variable "create_gcp_dns_zone" {
   description = "Set to true if you want to deploy the Azure delegated zone."
   type        = bool
-  default     = "false"
+  default     = "true"
 }
 
 variable "gcp_project" {
