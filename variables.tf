@@ -55,9 +55,10 @@ variable "create_gcp_dns_zone" {
 
 variable "gcp_project" {
   description = "GCP project name"
+  default="terraform-governance-demo"
 }
 
 variable "gcp_region" {
   description = "GCP region, e.g. us-east1"
-  default     = "europe-west3"
+  default     = "australia-southeast1"
 }
