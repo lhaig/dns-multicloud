@@ -37,7 +37,7 @@ variable "aws_region" {
 variable "create_azure_dns_zone" {
   description = "Set to true if you want to deploy the Azure delegated zone."
   type        = bool
-  default     = "true"
+  default     = "false"
 }
 
 variable "azure_location" {
@@ -50,7 +50,7 @@ variable "azure_location" {
 variable "create_gcp_dns_zone" {
   description = "Set to true if you want to deploy the Azure delegated zone."
   type        = bool
-  default     = "true"
+  default     = "false"
 }
 
 variable "gcp_project" {
