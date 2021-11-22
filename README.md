@@ -175,7 +175,7 @@ You will be taken to the **Confirm Changes** section. Make sure the details are 
 ![Confirm Changes](https://cdn-images-1.medium.com/max/2000/1*TPGibkYMQNU0TlZoJf-OUg.png)*Confirm Changes*
 
 Click the Update VCS Settings button.
-
+ 
 You now have the option to change the setting for **Automatic Runs** if you would like.
 
 Terraform can be set to either automatically run a plan and apply for the updated commit or it can be configured to only run the plan and apply if a file in a specific path is changed.
