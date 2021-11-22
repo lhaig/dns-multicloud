@@ -50,12 +50,12 @@ variable "azure_location" {
 variable "create_gcp_dns_zone" {
   description = "Set to true if you want to deploy the Azure delegated zone."
   type        = bool
-  default     = "false"
+  default     = "true"
 }
 
 variable "gcp_project" {
   description = "GCP project name"
-  default="terraform-governance-demo"
+  default="yulei-playground"
 }
 
 variable "gcp_region" {
