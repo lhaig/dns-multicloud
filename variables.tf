@@ -37,7 +37,7 @@ variable "aws_region" {
 variable "create_azure_dns_zone" {
   description = "Set to true if you want to deploy the Azure delegated zone."
   type        = bool
-  default     = "false"
+  default     = "true"
 }
 
 variable "azure_location" {
