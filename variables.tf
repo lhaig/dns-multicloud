@@ -1,7 +1,7 @@
 # General
 variable "owner" {
   description = "Person Deploying this Stack e.g. john-doe"
-  default = "yulei@hashicorp.com"
+  default = "yulei"
 }
 
 variable "namespace" {
